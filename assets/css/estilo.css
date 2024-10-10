@@ -87,3 +87,93 @@ footer {
     display: flex;
 }
 
+
+/* CSS RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Títulos */
+
+.titulo {
+    font-family: 'Arial Black', 'Impact';
+    font-size: x-large;
+    text-align: center;
+}
+
+.titulo2 {
+    font-family: 'Arial Black', 'Impact';
+    font-size: large;
+}
+
+.paragrafo {
+    font-family: 'Calibri', 'Aptos';
+    font-size: medium;
+}
+
+.legenda {
+    font-family: 'Arial Narrow';
+    font-size: small;
+}
+
+/* CORES */
+
+.cor1 {
+    color: #f00;
+}
+
+.cor2 {
+    color: #0f0;
+}
+
+.cor3 {
+    color: #00f;
+}
+
+/* DISPLAY */
+
+.linha {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: black 2px solid;
+}
+
+.caixa {
+    height: 100px;
+    border: gray 1px dashed;
+}
+
+.grande {
+    width: 100%;
+}
+
+.media {
+    width: 50%;
+}
+
+.pequena {
+    width: 33%;
+}
+
+.btn-primary2 {
+    background-color: #F4CF2C;
+    color: #2A2A2A;
+}
+.btn-primary2:hover {
+    background-color: #c7ae3f;
+    color: #2A2A2A;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
